@@ -1,4 +1,29 @@
+server:
+  port: 8081
+spring:
+  profiles: prod
+#    active: prod
+
+---
+
+server:
+  port: 8082
+spring:
+  profiles: test
+
+---
+server:
+  port: 8083
+spring:
+  profiles: dev
 ent:
   aliasMap:
     entA: entAStrategy
     entB: entBStrategy
+name: 'zhangsan \n lisi'
+person:
+  map:
+    key: 1key
+  list: [1, 2, 3]
+  email: siwaxinwu@sina.com
+  name: 'zhangsan \n lisi'

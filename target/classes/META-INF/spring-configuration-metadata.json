@@ -4,6 +4,16 @@
       "name": "ent",
       "type": "com.roy.strategytest.EntAlias",
       "sourceType": "com.roy.strategytest.EntAlias"
+    },
+    {
+      "name": "jack",
+      "type": "com.roy.entity.Employee",
+      "sourceType": "com.roy.entity.Employee"
+    },
+    {
+      "name": "person",
+      "type": "com.roy.entity.Person",
+      "sourceType": "com.roy.entity.Person"
     }
   ],
   "properties": [
@@ -11,6 +21,46 @@
       "name": "ent.alias-map",
       "type": "java.util.HashMap<java.lang.String,java.lang.String>",
       "sourceType": "com.roy.strategytest.EntAlias"
+    },
+    {
+      "name": "jack.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.roy.entity.Employee"
+    },
+    {
+      "name": "jack.height",
+      "type": "java.lang.Integer",
+      "sourceType": "com.roy.entity.Employee"
+    },
+    {
+      "name": "jack.name",
+      "type": "java.lang.String",
+      "sourceType": "com.roy.entity.Employee"
+    },
+    {
+      "name": "jack.string",
+      "type": "java.lang.String",
+      "sourceType": "com.roy.entity.Employee"
+    },
+    {
+      "name": "person.email",
+      "type": "java.lang.String",
+      "sourceType": "com.roy.entity.Person"
+    },
+    {
+      "name": "person.list",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.roy.entity.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.roy.entity.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.roy.entity.Person"
     }
   ],
   "hints": []
